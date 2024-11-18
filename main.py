@@ -3,7 +3,6 @@ from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtGui import QPalette, QBrush, QPixmap
 from PyQt5.QtWidgets import QMessageBox
 from gis_form import Form_Gis
-from PIL import Image
 import sys
 
 class Form_main_Programm(QtWidgets.QMainWindow,Form_Gis):
